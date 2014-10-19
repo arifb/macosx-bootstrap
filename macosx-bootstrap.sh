@@ -59,6 +59,7 @@ apps=(
   flash
 	flux
 	iterm2
+	java
 	keepassx
 	libreoffice
 	mou
