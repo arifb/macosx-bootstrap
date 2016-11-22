@@ -16,24 +16,13 @@ brew install bash
 brew tap homebrew/dupes
 brew install homebrew/dupes/grep
 
-# Add to PATH
+# Add to PATH, allowing the use of the 'normal' executable names for gnu utilities
 printf "$PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH" >> ~/.bash_profile
 
-# Install others binaries
+# Install other binaries
 binaries=(
-  graphicsmagick
-  rename
-  ffmpeg
-  python3
-  sshfs
+  ack
   git
-	detox
-	duplicity
-	nmap
-	openssl
-	p7zip
-	unrar
-	wget
 	zsh
 )
 
@@ -49,61 +38,34 @@ brew install caskroom/cask/brew-cask
 # Install Applications
 apps=(
 	adium
-	caffeine
-  chromium
-	citrix-receiver
-  crashplan
+  alfred
+  cyberduck
+  dash
+  divvy
 	dropbox
 	evernote
-  firefox
-  flash
 	flux
+  google-chrome
 	iterm2
 	java
-	keepassx
-	libreoffice
-	mou
-  nvalt
-	paragon-ntfs
-  qlmarkdown
-  qlstephen
-  quicklook-json
+  karabiner-elements
+  macvim
+  private-internet-access
+  shimeike-formulatepro
 	skype
+  skitch
+  slack
 	spotify
-	sublime-text
+  transmission
 	vlc
 	vagrant
 	virtualbox
 )
 
 printf "installing apps..."
-brew cask install --appdir="/Applications" ${apps[@]}
+brew cask install ${apps[@]}
 
 brew cask cleanup
 
-# Install Mackup
-brew install mackup
-
-# Mackup backup applications config
-mackup backup
-
-# Run osx-for-hackers.sh
-DIR=$(pwd)
-if [ -d ~/git ]
-then
-  cd ~/git
-else
-	mkdir ~/git && cd ~/git
-fi
-git clone https://gist.github.com/e22d9840f9ea2fee4716.git
-sh e22d9840f9ea2fee4716/osx-for-hackers.sh
-
-# Revert disable spotlight in osx-for-hackers.sh
-sudo chmod 755 /System/Library/CoreServices/Search.bundle/Contents/MacOS/Search
-
-# Disable the sound effects on boot
-sudo nvram SystemAudioVolume=" "
-
 # Install Oh-My-ZSH
-curl -L http://install.ohmyz.sh | sh
-
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
