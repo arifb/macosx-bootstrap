@@ -16,14 +16,13 @@ brew install bash
 brew tap homebrew/dupes
 brew install homebrew/dupes/grep
 
-# Add to PATH, allowing the use of the 'normal' executable names for gnu utilities
-printf "$PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH" >> ~/.bash_profile
-
 # Install other binaries
 binaries=(
   ack
   git
-	zsh
+  reattach-to-user-namespace
+  tmux
+  zsh
 )
 
 printf "installing binaries..."
@@ -37,29 +36,30 @@ brew install caskroom/cask/brew-cask
 
 # Install Applications
 apps=(
-	adium
+  1password
+  adium
   alfred
   cyberduck
   dash
   divvy
-	dropbox
-	evernote
-	flux
+  dropbox
+  evernote
+  flux
   google-chrome
-	iterm2
-	java
+  iterm2
+  java
   karabiner-elements
   macvim
   private-internet-access
   shimeike-formulatepro
-	skype
+  skype
   skitch
   slack
-	spotify
+  spotify
   transmission
-	vlc
-	vagrant
-	virtualbox
+  vlc
+  vagrant
+  virtualbox
 )
 
 printf "installing apps..."
@@ -69,3 +69,19 @@ brew cask cleanup
 
 # Install Oh-My-ZSH
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+# Add to PATH, allowing the use of the 'normal' executable names for gnu utilities
+printf "$PATH=$HOME/.rbenv/bin:$(brew --prefix coreutils)/libexec/gnubin:$PATH" >> ~/.zshrc
+printf "$(rbenv init -)" >> ~/.zshrc
+
+
+# Manual steps
+# --
+# turn off shortcut for spotlight and alfred to command + space
+# mouse direction
+# check ~/.zshrc, $PATH for repetition as well as any janky characters
+
+# TODO
+# add clone of dotfiles, simplify branch to this script? not sure i need it at all other than vim, tmux
+# add install of rbenv
+#   git clone https://github.com/rbenv/rbenv.git ~/.rbenv
