@@ -19,6 +19,7 @@ brew install homebrew/dupes/grep
 # Install other binaries
 binaries=(
   ack
+  ansible
   git
   reattach-to-user-namespace
   tmux
