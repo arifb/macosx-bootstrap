@@ -50,6 +50,7 @@ apps=(
   java
   karabiner-elements
   macvim
+  #nylas-n1
   private-internet-access
   shimeike-formulatepro
   skype
