@@ -79,6 +79,8 @@ printf "$(rbenv init -)" >> ~/.zshrc
 
 # Manual steps
 # --
+# pull all pathogen submodules (vim plugins)
+# - cd ~/.dotfiles && git submodule update --init --recursive (may need git submodule update --recursive --remote)
 # turn off shortcut for spotlight and change alfred to command + space
 # mouse direction
 # speed up key repeat, mouse tracking speed, delay until repeat
