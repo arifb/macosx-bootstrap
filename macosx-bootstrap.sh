@@ -81,15 +81,18 @@ printf "$(rbenv init -)" >> ~/.zshrc
 # --
 # turn off shortcut for spotlight and change alfred to command + space
 # mouse direction
+# speed up key repeat, mouse tracking speed, delay until repeat
 # check ~/.zshrc, $PATH for repetition as well as any janky characters
 # add divvy global shortcut cmd+shift+a
 # change text size in iterm
-# karabiner, activate just external (devices tab)
+# karabiner, activate just external keyboard (devices tab)
 # - caps -> esc
 # - left cmd -> left option
 # - left option -> left cmd
 # - rt cmd -> rt option
 # - rt option -> rt cmd
+# add ~/.ssh/config file (add to dotfiles?)
+
 
 # TODO
 # add clone of dotfiles, simplify branch to this script? not sure i need it at all other than vim, tmux
