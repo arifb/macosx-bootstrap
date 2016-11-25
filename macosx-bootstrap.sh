@@ -83,7 +83,7 @@ printf "$(rbenv init -)" >> ~/.zshrc
 # mouse direction
 # speed up key repeat, mouse tracking speed, delay until repeat
 # check ~/.zshrc, $PATH for repetition as well as any janky characters
-# add divvy global shortcut cmd+shift+a
+# add divvy global shortcut cmd+shift+a, or even better, export then import http://mizage.clarify-it.com/d/nxr9qg
 # change text size in iterm
 # karabiner, activate just external keyboard (devices tab)
 # - caps -> esc
