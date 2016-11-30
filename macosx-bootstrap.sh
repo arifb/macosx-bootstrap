@@ -40,7 +40,6 @@ apps=(
   1password
   adium
   alfred
-  ansible
   cyberduck
   dash
   divvy
