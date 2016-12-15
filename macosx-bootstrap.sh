@@ -24,6 +24,7 @@ binaries=(
   reattach-to-user-namespace
   tmux
   zsh
+  heroku
 )
 
 printf "installing binaries..."
