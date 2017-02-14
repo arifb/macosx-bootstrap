@@ -76,7 +76,7 @@ brew cask cleanup
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # Add to PATH, allowing the use of the 'normal' executable names for gnu utilities
-printf "$PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH" >> ~/.zshrc
+printf "export PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH" >> ~/.zshrc
 printf "$(rbenv init -)" >> ~/.zshrc
 
 
