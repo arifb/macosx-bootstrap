@@ -46,13 +46,15 @@ apps=(
   divvy
   dropbox
   evernote
+  firefox
   flux
   google-chrome
   iterm2
   java
   karabiner-elements
+  licecap
   macvim
-  #nylas-n1
+  nylas-n1
   private-internet-access
   shimeike-formulatepro
   skype
