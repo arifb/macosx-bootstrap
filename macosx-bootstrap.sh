@@ -40,7 +40,8 @@ brew install caskroom/cask/brew-cask
 apps=(
   1password
   adium
-  alfred
+# this will install alfred v3 which i don't have license for, download alfred 2 https://cachefly.alfredapp.com/Alfred_2.8.4_437.zip
+#  alfred
   cyberduck
   dash
   divvy
