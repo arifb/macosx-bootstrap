@@ -41,8 +41,6 @@ brew install caskroom/cask/brew-cask
 apps=(
   1password
   adium
-# this will install alfred v3 which i don't have license for, download alfred 2 https://cachefly.alfredapp.com/Alfred_2.8.4_437.zip
-#  alfred
   cyberduck
   dash
   divvy
@@ -84,6 +82,8 @@ printf "$(rbenv init -)" >> ~/.zshrc
 
 # Manual steps
 # --
+# brew cask will install alfred v3 which i don't have license for, download alfred 2 https://cachefly.alfredapp.com/Alfred_2.8.4_437.zip
+# download inconsolata-g for vim http://www.fantascienza.net/leonardo/ar/inconsolatag/inconsolata-g_font.zip
 # pull all pathogen submodules (vim plugins)
 # - cd ~/.dotfiles && git submodule update --init --recursive (may need git submodule update --recursive --remote)
 # turn off shortcut for spotlight and change alfred to command + space
