@@ -41,6 +41,7 @@ brew install caskroom/cask/brew-cask
 apps=(
   1password
   adium
+  arq
   cyberduck
   dash
   divvy
