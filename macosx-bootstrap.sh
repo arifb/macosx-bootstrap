@@ -62,6 +62,7 @@ apps=(
   skitch
   slack
   spotify
+  toggldesktop
   transmission
   vlc
   vagrant
