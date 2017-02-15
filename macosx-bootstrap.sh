@@ -107,5 +107,7 @@ printf "eval \"$(rbenv init -)\"" >> ~/.zshrc
 
 # TODO
 # add clone of dotfiles, simplify branch to this script? not sure i need it at all other than vim, tmux
-# add install of rbenv
+# add install of rbenv, ruby-build
 #   git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+#   git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
+#   rbenv install 2.4.0
