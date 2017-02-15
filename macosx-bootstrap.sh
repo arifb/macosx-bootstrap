@@ -83,11 +83,13 @@ printf "$(rbenv init -)" >> ~/.zshrc
 
 # Manual steps
 # --
-# brew cask will install alfred v3 which i don't have license for, download alfred 2 https://cachefly.alfredapp.com/Alfred_2.8.4_437.zip
+# brew cask will install alfred v3 which i don't have license for, download alfred 2 
+# - https://cachefly.alfredapp.com/Alfred_2.8.4_437.zip
+# - https://www.alfredforum.com/topic/995-find-folder-%E2%80%94%C2%A0search-by-folder-name-workflow/
+# - turn off shortcut for spotlight and change alfred to command + space
 # download inconsolata-g, use otf, for vim http://www.fantascienza.net/leonardo/ar/inconsolatag/inconsolata-g_font.zip
 # pull all pathogen submodules (vim plugins)
 # - cd ~/.dotfiles && git submodule update --init --recursive (may need git submodule update --recursive --remote)
-# turn off shortcut for spotlight and change alfred to command + space
 # mouse direction
 # speed up key repeat, mouse tracking speed, delay until repeat
 # check ~/.zshrc, $PATH for repetition as well as any janky characters
