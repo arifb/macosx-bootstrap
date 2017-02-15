@@ -21,10 +21,11 @@ binaries=(
   ack
   ansible
   git
+  heroku
+  htop
   reattach-to-user-namespace
   tmux
   zsh
-  heroku
 )
 
 printf "installing binaries..."
