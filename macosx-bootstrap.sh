@@ -56,7 +56,7 @@ apps=(
   karabiner-elements
   licecap
   macvim
-  nylas-n1
+  nylas-mail
   private-internet-access
   shimeike-formulatepro
   skype
