@@ -79,7 +79,7 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 
 # Add to PATH, allowing the use of the 'normal' executable names for gnu utilities
 printf "export PATH=$HOME/.rbenv/bin:$(brew --prefix coreutils)/libexec/gnubin:$PATH" >> ~/.zshrc
-printf "eval '$(rbenv init -)'" >> ~/.zshrc
+printf "eval \"$(rbenv init -)\"" >> ~/.zshrc
 
 
 # Manual steps
