@@ -41,7 +41,6 @@ brew install caskroom/cask/brew-cask
 apps=(
   1password
   adium
-  arq
   cyberduck
   dash
   divvy
@@ -56,6 +55,7 @@ apps=(
   licecap
   macvim
   nylas-mail
+  postman
   private-internet-access
   shimeike-formulatepro
   skype
@@ -88,6 +88,8 @@ printf "eval \"$(rbenv init -)\"" >> ~/.zshrc
 # - https://cachefly.alfredapp.com/Alfred_2.8.4_437.zip
 # - https://www.alfredforum.com/topic/995-find-folder-%E2%80%94%C2%A0search-by-folder-name-workflow/
 # - turn off shortcut for spotlight and change alfred to command + space
+# brew cask will install arq v5 which i don't have license for, download arq 4
+# - https://www.arqbackup.com/arq4/
 # download inconsolata-g, use otf, for vim http://www.fantascienza.net/leonardo/ar/inconsolatag/inconsolata-g_font.zip
 # pull all pathogen submodules (vim plugins)
 # - cd ~/.dotfiles && git submodule update --init --recursive (may need git submodule update --recursive --remote)
