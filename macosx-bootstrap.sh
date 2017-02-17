@@ -20,6 +20,7 @@ brew install homebrew/dupes/grep
 binaries=(
   ack
   ansible
+  ctags
   git
   heroku
   htop
