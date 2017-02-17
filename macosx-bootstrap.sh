@@ -63,6 +63,7 @@ apps=(
   skitch
   slack
   spotify
+  teamviewer
   toggldesktop
   transmission
   vlc
