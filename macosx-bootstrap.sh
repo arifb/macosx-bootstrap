@@ -50,6 +50,7 @@ apps=(
   firefox
   flux
   google-chrome
+  gpgtools
   iterm2
   java
   karabiner-elements
