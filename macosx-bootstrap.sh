@@ -43,7 +43,6 @@ apps=(
   1password
   adium
   cyberduck
-  dash
   divvy
   dropbox
   evernote
@@ -93,6 +92,8 @@ printf "eval \"$(rbenv init -)\"" >> ~/.zshrc
 # - turn off shortcut for spotlight and change alfred to command + space
 # brew cask will install arq v5 which i don't have license for, download arq 4
 # - https://www.arqbackup.com/arq4/
+# brew cask will install dash v3 or v4 which i don't have license, download dash 2
+# - https://kapeli.com/downloads/v2/Dash.zip
 # download inconsolata-g, use otf, for vim http://www.fantascienza.net/leonardo/ar/inconsolatag/inconsolata-g_font.zip
 # pull all pathogen submodules (vim plugins)
 # - cd ~/.dotfiles && git submodule update --init --recursive (may need git submodule update --recursive --remote)
