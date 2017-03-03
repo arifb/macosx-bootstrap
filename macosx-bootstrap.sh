@@ -24,6 +24,7 @@ binaries=(
   git
   heroku
   htop
+  postgresql
   reattach-to-user-namespace
   tmux
   zsh
