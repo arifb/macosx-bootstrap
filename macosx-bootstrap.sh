@@ -96,6 +96,7 @@ printf "eval \"$(rbenv init -)\"" >> ~/.zshrc
 # brew cask will install dash v3 or v4 which i don't have license, download dash 2
 # - https://kapeli.com/downloads/v2/Dash.zip
 # download office (see 1password)
+# download lightroom via adobe site
 # download inconsolata-g, use otf, for vim http://www.fantascienza.net/leonardo/ar/inconsolatag/inconsolata-g_font.zip
 # pull all pathogen submodules (vim plugins)
 # - cd ~/.dotfiles && git submodule update --init --recursive (may need git submodule update --recursive --remote)
