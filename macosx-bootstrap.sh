@@ -57,6 +57,7 @@ apps=(
   licecap
   macvim
   nylas-mail
+  postico
   postman
   private-internet-access
   shimeike-formulatepro
