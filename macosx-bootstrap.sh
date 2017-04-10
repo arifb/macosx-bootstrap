@@ -51,6 +51,7 @@ apps=(
   flux
   google-chrome
   gpgtools
+  handbrake
   iterm2
   java
   karabiner-elements
