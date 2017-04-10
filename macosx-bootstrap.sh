@@ -69,6 +69,7 @@ apps=(
   teamviewer
   toggldesktop
   transmission
+  typora
   vlc
   vagrant
   virtualbox
