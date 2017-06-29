@@ -69,6 +69,7 @@ apps=(
   teamviewer
   toggldesktop
   transmission
+  twist
   typora
   vlc
   vagrant
