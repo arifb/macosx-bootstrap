@@ -52,6 +52,7 @@ apps=(
   google-chrome
   gpgtools
   handbrake
+  insomnia
   iterm2
   java
   karabiner-elements
@@ -59,7 +60,6 @@ apps=(
   macvim
   nylas-mail
   postico
-  postman
   private-internet-access
   shimeike-formulatepro
   skype
