@@ -61,6 +61,7 @@ apps=(
   nylas-mail
   postico
   private-internet-access
+  retini
   shimeike-formulatepro
   skype
   skitch
