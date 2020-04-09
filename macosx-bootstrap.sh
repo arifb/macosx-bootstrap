@@ -26,6 +26,7 @@ binaries=(
   htop
   postgresql
   reattach-to-user-namespace
+  tldr
   tmux
   zsh
 )
